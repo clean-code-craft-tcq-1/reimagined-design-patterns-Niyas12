@@ -19,7 +19,7 @@ Advantage: Reusablity. Need not to change existing implementation inorder to sup
 
 Disadvantage: Increase in the overhead.
 
-**Observer pattern **
+**Observer pattern**
 
 If a state of an object is changed, it notifies all the dependends/subscribers automatically.
 
