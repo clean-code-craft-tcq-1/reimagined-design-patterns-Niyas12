@@ -32,7 +32,7 @@ Disadvantage: If not correctly implemented, the Observer can add complexity and 
 
 **Builder pattern**
 This pattern used to create complex object step by step. 
-Usually constructors are being used not initialize the object. But some of the constructor paramter may not be relevant for some objects. So class will become ugly if we introduce many paramters to the constructor. In builder pattern, to create an object, you execute a series of these steps on a builder object. The important part is that you don’t need to call all of the steps. You can call only those steps that are necessary for producing a particular configuration of an object.
+Usually constructors are being used to initialize the object. But some of the constructor paramter may not be relevant for some objects. So class will become ugly if we introduce many paramters to the constructor. In builder pattern, to create an object, you execute a series of these steps on a builder object. The important part is that you don’t need to call all of the steps. You can call only those steps that are necessary for producing a particular configuration of an object.
 
 Example: Consider the construction of home. Home is the final product that is to be returned as the output of the construction process. It will have many steps like basement construction, wall construction and so on roof construction
 
