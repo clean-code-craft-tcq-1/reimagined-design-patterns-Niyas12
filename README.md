@@ -30,6 +30,12 @@ Advantage: 1) Subject only knows that observer implement Observer interface.Noth
 
 Disadvantage: If not correctly implemented, the Observer can add complexity and lead to inadvertent performance issues.
 
+**Proxy pattern**
+The Proxy pattern allows us to create an intermediary that acts as an interface to another resource, while also hiding the underlying complexity of the component.
+
+Advantage: One of the advantages of Proxy pattern is security.
+
+
 **Builder pattern**
 This pattern used to create complex object step by step. 
 Usually constructors are being used to initialize the object. But some of the constructor paramter may not be relevant for some objects. So class will become ugly if we introduce many paramters to the constructor. In builder pattern, to create an object, you execute a series of these steps on a builder object. The important part is that you don’t need to call all of the steps. You can call only those steps that are necessary for producing a particular configuration of an object.
